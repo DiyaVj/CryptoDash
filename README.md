@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# CryptoDash
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Cryptocurrency Dashboard application built using React.js. It provides users with real-time data on cryptocurrency prices and population statistics.
+This project consists of implementing three main tasks:
 
-## Available Scripts
+1. **Create a Side Navigation Bar**: Implement a responsive side navigation bar with at least three navigation items. The active navigation item should be highlighted.
 
-In the project directory, you can run:
+2. **Graph Population Data**: Fetch population data from the provided API and create a graph to display the population data for different nations. The graph should include appropriate labels, legends, and axis titles.
 
-### `npm start`
+3. **Display Cryptocurrency Prices**: Fetch cryptocurrency prices from the provided API and display them in visually appealing cards. The cards should showcase Bitcoin prices in multiple currencies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Task 1: Create a Side Navigation Bar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Objective: Implement a side navigation bar similar to the provided image.
+Requirements:
+- Responsive layout with a hamburger menu for smaller screens.
+- At least three navigation items.
+- Highlight the active navigation item.
 
-### `npm test`
+## Task 2: Graph Population Data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Objective: Fetch population data from the provided API and create a graph.
+Requirements:
+- Utilize React JS and Chart.js.
+- Display population data for different nations.
+- Provide appropriate labels, legends, and axis titles.
 
-### `npm run build`
+## Task 3: Display Cryptocurrency Prices
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Objective: Fetch cryptocurrency prices from the provided API and display them in cards.
+Requirements:
+- Fetch data asynchronously using React's lifecycle methods or hooks.
+- Display Bitcoin prices in multiple currencies.
+- Design visually appealing cards to showcase the cryptocurrency prices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js
+- Axios (for making HTTP requests)
+- Chart.js (for rendering graphs)
+- Tailwind CSS (for styling)
+- Lucide Icons (for sidebar icons)
 
-### `npm run eject`
+### Installation
+1. Clone the repository: `git clone [repository_url]`
+2. Navigate to the project directory: `cd project-directory`
+3. Install dependencies: `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Usage
+- Start the development server: `npm start`
+- Access the application in the browser: `http://localhost:3000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credits
+- [DataUSA API](https://datausa.io/api/data?drilldowns=Nation&measures=Population)
+- [CoinDesk API](https://api.coindesk.com/v1/bpi/currentprice.json)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
