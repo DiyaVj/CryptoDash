@@ -42,13 +42,30 @@ Requirements:
 - Lucide Icons (for sidebar icons)
 
 ### Installation
-1. Clone the repository: `git clone [repository_url]`
-2. Navigate to the project directory: `cd project-directory`
-3. Install dependencies: `npm install`
+1. Clone the repository:
+   
+   ```
+   git clone https://github.com/DiyaVj/CryptoDash.git
+   ```
+   
+3. Navigate to the project directory:
+     ```
+       cd project-directory
+     ```
+5. Install dependencies:
+     ```
+   npm install
+      ```
 
 ### Usage
-- Start the development server: `npm start`
-- Access the application in the browser: `http://localhost:3000`
+- Start the development server:
+  ```
+  npm start
+  ```
+- Access the application in the browser:
+  ```
+  http://localhost:3000
+  ```
 
 ## Credits
 - [DataUSA API](https://datausa.io/api/data?drilldowns=Nation&measures=Population)
